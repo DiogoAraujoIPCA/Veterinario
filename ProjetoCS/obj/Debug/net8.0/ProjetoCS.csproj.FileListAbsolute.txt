@@ -1,0 +1,14 @@
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\bin\Debug\net8.0\ProjetoCS.exe
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\bin\Debug\net8.0\ProjetoCS.deps.json
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\bin\Debug\net8.0\ProjetoCS.runtimeconfig.json
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\bin\Debug\net8.0\ProjetoCS.dll
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\bin\Debug\net8.0\ProjetoCS.pdb
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\ProjetoCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\ProjetoCS.AssemblyInfoInputs.cache
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\ProjetoCS.AssemblyInfo.cs
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\ProjetoCS.csproj.CoreCompileInputs.cache
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\ProjetoCS.dll
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\refint\ProjetoCS.dll
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\ProjetoCS.pdb
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\ProjetoCS.genruntimeconfig.cache
+C:\Users\Diogo Araujo\Desktop\Projeto c#\ProjetoCS\obj\Debug\net8.0\ref\ProjetoCS.dll
