@@ -1,22 +1,40 @@
 public partial class Raça
 {
 
+    #region Metodos para retornar Dados
     public string RetornarNomeRaca()
     {
-        if (Nome!=null){
+        if (Nome != null)
+        {
             return Nome;
-        }else{
+        }
+        else
+        {
             return "Sem Raça Definida";
         }
-       
+
     }
 
+    public string RetornarInformacoesRaca()
+    {
+        if (Informacoes != null)
+        {
+            return Informacoes;
+        }
+        else
+        {
+            return "Sem Informações da raça definidas";
+        }
+    }
+    #endregion
+
+    #region Procedimentos para retornar Dados
     public void RetornarNomeRacaUtilizador()
     {
 
         if (Nome != null)
         {
-            
+
             Console.WriteLine(Nome);
         }
         else
@@ -26,28 +44,22 @@ public partial class Raça
 
     }
 
-    public void RetornarInformacoesRaca()
+    public void RetornarInformacoesRacaUtilizador()
     {
 
-        
+
         if (Informacoes != null)
         {
-              Console.WriteLine("Retornar Informações da Informacoes do animal:");
-        Console.WriteLine(Informacoes);
+            Console.WriteLine("Retornar Informações da Informacoes do animal:");
+            Console.WriteLine(Informacoes);
         }
         else
         {
             Console.WriteLine("Sem informações");
         }
-     
+
     }
 
-    public void RetornarListaRaças()
-    {
-        Console.WriteLine("Retornar Lista de raças existentes:");
-        foreach (Raça var in Raca)
-        {
-            var.RetornarNomeRaca();
-        }
-    }
+
+    #endregion
 }

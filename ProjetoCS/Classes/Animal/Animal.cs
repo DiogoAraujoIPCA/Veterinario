@@ -1,3 +1,5 @@
+using System.Data;
+
 public  partial class Animal
 {
 
@@ -10,7 +12,9 @@ public  partial class Animal
 
     private Pessoa Responsavel;
 
-    
+    private List<string> ListaDoencas;
+   
+
     #endregion
 
 
@@ -21,6 +25,7 @@ public  partial class Animal
         NomeAnimal = _Nome;
         NomeRaca = _NomeRaca;  // Pode ser null
         Responsavel = _Responsavel;  // Pode ser null
+      
     }
     #endregion
 

@@ -46,7 +46,8 @@ public class Validacoes
 
     public static bool VerificarNumeroTelemovel(int NumeroTelemovel)
     {
-        if (NumeroTelemovel > 0)
+        string regex ="^d{9}$";
+        if (NumeroTelemovel > 0 && VerificarSyntax(regex,Convert.ToString(NumeroTelemovel)))
         {
             return true;
         }
@@ -55,22 +56,11 @@ public class Validacoes
             return false;
         }
     }
+    #endregion
     
 
 
-    public  static void  IdentificacaoOperacao(string NomeOperacao  ){
-          Console.WriteLine("------------------------------------------------------------");
-          Console.WriteLine(NomeOperacao);
-           Console.WriteLine("------------------------------------------------------------");
-          
-    }
 
-    public static void EspacoEntreOperacoes(int NumerosLinhas){
-        for (int i = 0 ; i<NumerosLinhas;i++){
-            Console.WriteLine("");
-        }
-    }
-    #endregion
 
 
 }

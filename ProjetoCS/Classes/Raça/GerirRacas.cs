@@ -1,22 +1,26 @@
-public partial class Raça{
-     #region GerirRaças
-    public void AdicionarRaça(Raça _Raca)
+public partial class Raça
+{
+
+
+    #region GerirRaças
+    public void AdicionarRaça(Diagnostico _Diagnostico)
     {
-        Raca.Add(_Raca);
+        Diagnostico.Add(_Diagnostico);
 
     }
 
-    public void ListarRaças()
+    public void ListarDiagnosticosRaca()
     {
-        if (Raca.Count == 0)
+        Auxliar.IdentificacaoOperacao("Listar Diagnnosticos comuns na raça:");
+        if (Diagnostico.Count == 0)
         {
-            Console.WriteLine("Nenhuma Raça associado.");
+            Console.WriteLine("Nenhum Diagnostico associado.");
         }
         else
         {
-            foreach (var tipoRaca in Raca)
+            foreach (Diagnostico tipoRaca in Diagnostico)
             {
-               // tipoRaca.RetornarNomeAnimal();
+                tipoRaca.RetornarNomeDiagnostico();
             }
         }
     }

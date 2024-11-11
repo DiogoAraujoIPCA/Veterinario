@@ -8,7 +8,7 @@ public partial class Pessoa
 
     public void RetornarNome()
     {
-        Validacoes.EspacoEntreOperacoes(1);
+        Auxliar.EspacoEntreOperacoes(1);
         Console.WriteLine("Identificar Nome:");
         if (Nome == null)
         {
@@ -25,7 +25,7 @@ public partial class Pessoa
 
     public void RetornarMorada()
     {
-        Validacoes.EspacoEntreOperacoes(1);
+        Auxliar.EspacoEntreOperacoes(1);
         Console.WriteLine("Identificar Morada:");
         if (Morada == null)
         {
@@ -43,7 +43,7 @@ public partial class Pessoa
 
     public void RetornarNumeroTelemovel()
     {
-        Validacoes.EspacoEntreOperacoes(1);
+        Auxliar.EspacoEntreOperacoes(1);
         Console.WriteLine("Identificar Numero Telemovel:");
 
         if (NumeroTelemovel == 0)
@@ -59,16 +59,22 @@ public partial class Pessoa
 
     }
 
-    public void RetornarTodasInformacoes()
+    public void RetornarTodasInformacoes(bool IdentificacaoOperacao)
     {
-        Validacoes.EspacoEntreOperacoes(1);
-          Validacoes.IdentificacaoOperacao("Identificar Informações Pessoa:");
-  
-
+        Auxliar.EspacoEntreOperacoes(1);
+        if(IdentificacaoOperacao){
+            Auxliar.IdentificacaoOperacao("Identificar Informações Pessoa:");
+        }
+        Auxliar.EspacoEntreOperacoes(1);
         RetornarMorada();
         RetornarNome();
         RetornarNumeroTelemovel();
+        Auxliar.EspacoEntreOperacoes(1);
 
+
+    }
+
+    public void RetornarAniamis(){
 
     }
     #endregion

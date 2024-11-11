@@ -1,57 +1,102 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//1. Para cada animal ser adimitir o cao deve ter Nome ,Raça se existir e um identificador unico
+
+Organizacao Org1= new Organizacao("Org1","","@dada",91212121);
+# region 1. Para cada animal ser adimitir o cao deve ter Nome ,Raça se existir e um identificador unico
+
 
 Raça raca = new Raça("Bulldog","Nada");
 Animal Teste = new Animal(1111111,"Arroz",raca,null);
 Animal Teste1 = new Animal(1111112,"Jordan",null,null);
 
 Teste.RetornarTodasInformações();   
-Validacoes.EspacoEntreOperacoes(1);
+Auxliar.EspacoEntreOperacoes(1);
 
 Teste1.RetornarTodasInformações();
-Validacoes.EspacoEntreOperacoes(1);
+Auxliar.EspacoEntreOperacoes(1);
+
+#endregion
 
 
-// 2.Para cada Dono quer armazenar o nome , morada , nº telemovel e deve existir um identificador unico 
+#region  2.Para cada Dono quer armazenar o nome , morada , nº telemovel e deve existir um identificador unico 
 
 Pessoa Andre= new Pessoa("Andre","Rua das Larangeiras",912032832);
 Pessoa João= new Pessoa("João","Rua das Crocodilos",912032131);
-Andre.RetornarTodasInformacoes();
-Validacoes.EspacoEntreOperacoes(1);
+Andre.RetornarTodasInformacoes(true);
 
 
-//3. Um animal pode nao ter dono 
+#endregion
+
+
+#region 3. Um animal pode nao ter dono 
 
 Animal Teste3 = new Animal(1111111,"Barriguinhas",raca,null); // Sem dono
 Animal Teste4 = new Animal(1111112,"Foguete",raca,Andre);
 
 Teste3.RetornarTodasInformações();
-Validacoes.EspacoEntreOperacoes(2);
+
 
 Teste4.RetornarTodasInformações();
-Validacoes.EspacoEntreOperacoes(2);
 
-//4. Deve ser possivel adicionar informações sobre uma raça especifica mesmo que não haja um animal com a raça
+
+#endregion
+
+
+#region 4. Deve ser possivel adicionar informações sobre uma raça especifica mesmo que não haja um animal com a raça
 Raça raca1 = new Raça("Pincha",null);
 
 //Adicionar retornar dados
 raca1.AtualizarInformacoesRaca("Teste");
 
+#endregion
 
-
-//5)Cada Consulta deve ter um Responsavel Clinico , todas as consultas devem ter um veterinario associado
+#region 5) Cada Consulta deve ter um Responsavel Clinico , todas as consultas devem ter um veterinario associado
 
 Veterinario Veterinario1= new Veterinario(1,João);
-Consulta consulta1=new Consulta( Convert.ToDateTime("08/11/2024"),Convert.ToDateTime("09/11/2024"),Andre,Teste3,Veterinario1);
+Consulta consulta1=new Consulta("Arroz", Convert.ToDateTime("08/11/2024"),Convert.ToDateTime("09/11/2024"),Andre,Teste3,Veterinario1);
 
-//6)Para cada vetirinário , quer armazenar : o seu nome , morada , telemovel e identificador unico 
-Veterinario1.RetornarTodosDados();
+#endregion
+
+#region  6)Para cada vetirinário , quer armazenar : o seu nome , morada , telemovel e identificador unico 
+Veterinario1.RetornarTodosDados(false);
+
+#endregion
+
+#region 7)Durante a consulta podem ser detetadas diversas condições medicas , cada uma delas deve ser identificada por um nome comum e nome especifico .Não podem existir condições medicas iguais
+
+Consulta Consulta1= new Consulta("Teste",Convert.ToDateTime("23/12/2024"),Convert.ToDateTime("23/12/2024"),João,Teste3,Veterinario1);
+Consulta Consulta2= new Consulta("Teste1",Convert.ToDateTime("23/12/2024"),Convert.ToDateTime("23/12/2024"),João,Teste3,Veterinario1);
+Org1.adicionarConsulta(Consulta1);
+Org1.adicionarConsulta(Consulta2);
+
+Org1.RetornarListaConsultas();
+
+Diagnostico Diagnostico1 =new Diagnostico("AAAA","BBBB");
+Diagnostico Diagnostico2 =new Diagnostico("BBBB","CCCC");
+
+Consulta1.AdicionarDiagnostico(Diagnostico1,raca);
+Consulta1.AdicionarDiagnostico(Diagnostico2,raca);
+
+Consulta1.RetornarTodasInformacoesConsultaUtilizador();
 
 
-/*7)Durante a consulta podem ser detetadas diversas condições medicas , cada uma delas deve ser identificada por um nome comum e nome especifico .Não podem existir 
-condições medicas iguais*/
 
-//8)Devem ser armazenadas as condições medicas mais comuns de cada raça
+/*
+consulta1.ListarTodasCondicoesMedica();
+Consulta1.AdicionarCondicaoMedica("Cego e Surdo ");
+consulta1.CriarCondicaoMedica();
+consulta1.ListarTodasCondicoesMedica();*/
+
+
+#endregion
+
+
+#region 8)Devem ser armazenadas as condições medicas mais comuns de cada raça
+
+raca.ListarCondicoesComuns();
+
+#endregion
+
+
 
 

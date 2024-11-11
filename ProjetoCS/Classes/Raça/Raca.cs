@@ -2,7 +2,7 @@ public  partial class Raça
 {
     private string Nome;
     private string Informacoes;
-    private List<Raça> Raca;
+    private List<Diagnostico> Diagnostico ;
     public Raça(string _Nome, string _Informacoes=null)
     {
         if (!Validacoes.VerificarCampo(_Nome))
@@ -18,7 +18,7 @@ public  partial class Raça
         {
             Nome = _Nome;
             Informacoes = _Informacoes;
-          //  Raca = new List<Raça>();
+            Diagnostico = new List<Diagnostico>();
         }
             
         }

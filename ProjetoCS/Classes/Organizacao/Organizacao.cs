@@ -19,4 +19,9 @@ public partial class Organizacao
         ListaConsultas = new List<Consulta>();
         ListaVeterinarios = new List<Veterinario>();
     }
+     
+
+    
+        
+   
 }

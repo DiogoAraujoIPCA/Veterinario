@@ -3,7 +3,7 @@ public partial class Animal{
 
     public void  RetornarNomeAnimal()
     {
-        Validacoes.EspacoEntreOperacoes(1);
+        Auxliar.EspacoEntreOperacoes(1);
         Console.WriteLine("Identificar Nome Animal:");
         if (NomeAnimal == null)
         {
@@ -18,7 +18,7 @@ public partial class Animal{
 
     public void RetornarNumeroChip()
     {
-        Validacoes.EspacoEntreOperacoes(1);
+        Auxliar.EspacoEntreOperacoes(1);
          Console.WriteLine("Identificar Numero Chip:");
         if (NumeroChip == 0 )
         {
@@ -34,7 +34,7 @@ public partial class Animal{
 
     public void RetornarRaca()
     {
-        Validacoes.EspacoEntreOperacoes(1);
+        Auxliar.EspacoEntreOperacoes(1);
          Console.WriteLine("Identificar Raça:");
         if (NomeRaca != null && NomeRaca.RetornarNomeRaca() != "Sem Raça Definida")
         {
@@ -50,7 +50,7 @@ public partial class Animal{
 
     public void  RetornarResponsavel()
     {   
-        Validacoes.EspacoEntreOperacoes(1);
+        Auxliar.EspacoEntreOperacoes(1);
         Console.WriteLine("Identificar Resposanvel:");
         if (Responsavel == null)
         {
@@ -65,7 +65,8 @@ public partial class Animal{
 
     public void RetornarTodasInformações()
     {
-        Validacoes.IdentificacaoOperacao("Identificar todas informações animal:");
+        Auxliar.EspacoEntreOperacoes(2);
+        Auxliar.IdentificacaoOperacao("Identificar todas informações animal:");
         RetornarNomeAnimal();
         RetornarNumeroChip();
         RetornarRaca();

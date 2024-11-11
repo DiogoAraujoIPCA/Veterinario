@@ -2,7 +2,7 @@ public partial class Animal{
       #region Procedimentos para Remover Atributos
         public void RemoverResposavel()
         {
-            Validacoes.IdentificacaoOperacao("Remover Responsavel de "+NomeAnimal+"");
+            Auxliar.IdentificacaoOperacao("Remover Responsavel de "+NomeAnimal+"");
             if (Responsavel != null)
             {
                 Console.WriteLine("Responsável removido com sucesso.");
@@ -18,7 +18,7 @@ public partial class Animal{
 
         public void RemoverRaca()
         {
-            Validacoes.IdentificacaoOperacao("Remover Raça de "+NomeAnimal+"");
+            Auxliar.IdentificacaoOperacao("Remover Raça de "+NomeAnimal+"");
             if (NomeRaca != null)
             {
                 Console.WriteLine("Raça removido com sucesso.");

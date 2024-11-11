@@ -1,5 +1,7 @@
-public partial class Raça{
-     #region Metodos para Atualizar Valores
+public partial class Raça
+{
+
+    #region Procedimentos para Atualizar Valores
     public void AtualizarNomeRaca(string _Nome)
     {
         if (Validacoes.VerificarCampo(_Nome))
@@ -22,6 +24,22 @@ public partial class Raça{
         else
         {
             Console.WriteLine("Não Foi possivel atualizar Informações");
+        }
+    }
+
+
+    public void AdicionarCondicaoMedica(Diagnostico CondicaoMedica)
+    {
+        Diagnostico.Add(CondicaoMedica);
+    }
+
+    public void ListarCondicoesComuns()
+    {
+
+        Auxliar.IdentificacaoOperacao("Lista comuns raça :" + RetornarNomeRaca() + " ");
+        foreach (Diagnostico diag in Diagnostico)
+        {
+            Console.WriteLine(diag.RetornarNomeDiagnostico());
         }
     }
     #endregion

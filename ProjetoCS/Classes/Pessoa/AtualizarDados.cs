@@ -6,7 +6,7 @@ public partial class Pessoa{
 
     public void AtualizarNumeroTelemovel(int _NumeroTelemovel)
     {
-        Validacoes.IdentificacaoOperacao("Atualizar Numero do telefone de "+Nome+" ");
+        Auxliar.IdentificacaoOperacao("Atualizar Numero do telefone de "+Nome+" ");
         if (Validacoes.VerificarNumeroTelemovel(_NumeroTelemovel))
         {
             NumeroTelemovel = _NumeroTelemovel;
@@ -19,7 +19,7 @@ public partial class Pessoa{
     }
     public void AtualizarNome(string _Nome)
     {
-        Validacoes.IdentificacaoOperacao("Atualizar Nome do "+Nome+" ");
+        Auxliar.IdentificacaoOperacao("Atualizar Nome do "+Nome+" ");
         if (Validacoes.VerificarCampo(_Nome))
         {
 
@@ -33,7 +33,7 @@ public partial class Pessoa{
     }
     public void AtualizarMorada(string _Morada)
     {
-        Validacoes.IdentificacaoOperacao("Atualizar Morada do "+Nome+" ");
+        Auxliar.IdentificacaoOperacao("Atualizar Morada do "+Nome+" ");
         if (Validacoes.VerificarCampo(_Morada))
         {
 
