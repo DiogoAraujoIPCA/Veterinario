@@ -4,16 +4,17 @@ public partial class Organizacao{
 
 #region Procedimentos Atualizar Dados Organização
 
-    public  void AtualizarNomeOrganização( string _NomeOrganizacao ){
+    public  bool AtualizarNomeOrganização( string _NomeOrganizacao ){
         
 
        if( Validacoes.VerificarCampo(_NomeOrganizacao)){
         Console.WriteLine("Atualizar Nome da Organização");
         NomeOrganizacao=_NomeOrganizacao;
-
+        return true;
 
        }else{
          Console.WriteLine("Não foi possivel atualizar Nome da Organização");
+         return false;
        }
         
     }
@@ -35,8 +36,10 @@ public partial class Organizacao{
     public void AtualizarNumeroTelemovel(int _NumeroTelemovel){
         if (Validacoes.VerificarNumeroTelemovel(_NumeroTelemovel)){
             NumeroTelemovel=_NumeroTelemovel;
+           
         }else{
-            Console.WriteLine("Não foi possivel atualizar Nº Telemovel ");
+             throw new ArgumentException("Não foi possivel atualizar Numero telemoveç", nameof(NumeroTelemovel));
+            
         }
     }
 

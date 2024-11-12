@@ -27,3 +27,9 @@ C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\obj\Debug\net
 C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\obj\Debug\net8.0\ProjetoCS.pdb
 C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\obj\Debug\net8.0\ProjetoCS.genruntimeconfig.cache
 C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\obj\Debug\net8.0\ref\ProjetoCS.dll
+c:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\obj\Debug\net8.0\ProjetoCS.csproj.AssemblyReference.cache
+C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\bin\Debug\net8.0\xunit.core.dll
+C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\bin\Debug\net8.0\xunit.execution.dotnet.dll
+C:\Users\diogo araujo\Desktop\Repos\Linguagens-Progama-o\ProjetoCS\obj\Debug\net8.0\ProjetoCS.csproj.Up2Date

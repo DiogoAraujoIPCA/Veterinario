@@ -1,4 +1,4 @@
-public partial class Raça
+public partial class Raca
 {
 
     #region Metodos para retornar Dados
@@ -10,7 +10,7 @@ public partial class Raça
         }
         else
         {
-            return "Sem Raça Definida";
+            return "Sem Raca Definida";
         }
 
     }
@@ -23,7 +23,7 @@ public partial class Raça
         }
         else
         {
-            return "Sem Informações da raça definidas";
+            return "Sem Informações da Raca definidas";
         }
     }
     #endregion
@@ -39,7 +39,7 @@ public partial class Raça
         }
         else
         {
-            Console.WriteLine("Sem Raça Defifnida");
+            Console.WriteLine("Sem Raca Defifnida");
         }
 
     }

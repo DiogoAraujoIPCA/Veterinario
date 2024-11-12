@@ -1,9 +1,9 @@
-public partial class Raça
+public partial class Raca
 {
 
 
-    #region GerirRaças
-    public void AdicionarRaça(Diagnostico _Diagnostico)
+    #region GerirRacas
+    public void AdicionarRaca(Diagnostico _Diagnostico)
     {
         Diagnostico.Add(_Diagnostico);
 
@@ -11,7 +11,7 @@ public partial class Raça
 
     public void ListarDiagnosticosRaca()
     {
-        Auxliar.IdentificacaoOperacao("Listar Diagnnosticos comuns na raça:");
+        Auxliar.IdentificacaoOperacao("Listar Diagnnosticos comuns na Raca:");
         if (Diagnostico.Count == 0)
         {
             Console.WriteLine("Nenhum Diagnostico associado.");

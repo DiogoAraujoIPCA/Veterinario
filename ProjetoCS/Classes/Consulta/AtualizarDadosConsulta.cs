@@ -39,7 +39,7 @@ public partial class Consulta
     {
         VeterinarioResponsavel = _VeterinarioResponsavel;
     }
-    public void AdicionarDiagnostico(Diagnostico _Diagnostico, Raça Animal)
+    public void AdicionarDiagnostico(Diagnostico _Diagnostico, Raca Animal)
     {
 
         Auxliar.EspacoEntreOperacoes(1);

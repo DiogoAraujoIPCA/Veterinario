@@ -46,7 +46,8 @@ public class Validacoes
 
     public static bool VerificarNumeroTelemovel(int NumeroTelemovel)
     {
-        string regex ="^d{9}$";
+        string regex = "^\\d+$";
+
         if (NumeroTelemovel > 0 && VerificarSyntax(regex,Convert.ToString(NumeroTelemovel)))
         {
             return true;

@@ -18,15 +18,15 @@ public partial class Animal{
 
         public void RemoverRaca()
         {
-            Auxliar.IdentificacaoOperacao("Remover Raça de "+NomeAnimal+"");
+            Auxliar.IdentificacaoOperacao("Remover Raca de "+NomeAnimal+"");
             if (NomeRaca != null)
             {
-                Console.WriteLine("Raça removido com sucesso.");
+                Console.WriteLine("Raca removido com sucesso.");
                 NomeRaca = null;
             }
             else
             {
-                Console.WriteLine("Nenhum Raça atribuida para remover.");
+                Console.WriteLine("Nenhum Raca atribuida para remover.");
 
             }
         }

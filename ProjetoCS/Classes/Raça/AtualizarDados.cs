@@ -1,16 +1,18 @@
-public partial class Raça
+public partial class Raca
 {
 
     #region Procedimentos para Atualizar Valores
-    public void AtualizarNomeRaca(string _Nome)
+    public bool AtualizarNomeRaca(string _Nome)
     {
         if (Validacoes.VerificarCampo(_Nome))
         {
             Nome = _Nome;
+            return true;
         }
         else
         {
-            Console.WriteLine("Não Foi possivel atualizar nome raça");
+            Console.WriteLine("Não Foi possivel atualizar nome Raca");
+            return false;
         }
     }
 
@@ -36,7 +38,7 @@ public partial class Raça
     public void ListarCondicoesComuns()
     {
 
-        Auxliar.IdentificacaoOperacao("Lista comuns raça :" + RetornarNomeRaca() + " ");
+        Auxliar.IdentificacaoOperacao("Lista comuns Raca :" + RetornarNomeRaca() + " ");
         foreach (Diagnostico diag in Diagnostico)
         {
             Console.WriteLine(diag.RetornarNomeDiagnostico());

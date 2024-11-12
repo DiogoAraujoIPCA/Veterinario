@@ -2,10 +2,10 @@
 
 
 Organizacao Org1= new Organizacao("Org1","","@dada",91212121);
-# region 1. Para cada animal ser adimitir o cao deve ter Nome ,Raça se existir e um identificador unico
+# region 1. Para cada animal ser adimitir o cao deve ter Nome ,Raca se existir e um identificador unico
 
 
-Raça raca = new Raça("Bulldog","Nada");
+Raca raca = new Raca("Bulldog","Nada");
 Animal Teste = new Animal(1111111,"Arroz",raca,null);
 Animal Teste1 = new Animal(1111112,"Jordan",null,null);
 
@@ -42,8 +42,8 @@ Teste4.RetornarTodasInformações();
 #endregion
 
 
-#region 4. Deve ser possivel adicionar informações sobre uma raça especifica mesmo que não haja um animal com a raça
-Raça raca1 = new Raça("Pincha",null);
+#region 4. Deve ser possivel adicionar informações sobre uma Raca especifica mesmo que não haja um animal com a Raca
+Raca raca1 = new Raca("Pincha",null);
 
 //Adicionar retornar dados
 raca1.AtualizarInformacoesRaca("Teste");
@@ -91,7 +91,7 @@ consulta1.ListarTodasCondicoesMedica();*/
 #endregion
 
 
-#region 8)Devem ser armazenadas as condições medicas mais comuns de cada raça
+#region 8)Devem ser armazenadas as condições medicas mais comuns de cada Raca
 
 raca.ListarCondicoesComuns();
 

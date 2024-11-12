@@ -70,7 +70,11 @@ public string RetornarNome(){
 
 
 public int RetornarNumeroTelemovel(){
+    if(NumeroTelemovel<=0)
     return NumeroTelemovel;
+    else{
+         throw new ArgumentException("Numero Telemovel Invalido", nameof(NumeroTelemovel));
+    }
 }
 
 

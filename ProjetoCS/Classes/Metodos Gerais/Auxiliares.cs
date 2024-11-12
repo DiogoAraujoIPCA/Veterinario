@@ -15,7 +15,6 @@ public class AdiconarConsulta {
 public class Auxliar{
         public  static void  IdentificacaoOperacao(string NomeOperacao  ){
 
-        
           Console.WriteLine("------------------------------------------------------------");
           Console.WriteLine(NomeOperacao);
           Console.WriteLine("------------------------------------------------------------");

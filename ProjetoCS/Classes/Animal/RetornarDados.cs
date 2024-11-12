@@ -35,15 +35,15 @@ public partial class Animal{
     public void RetornarRaca()
     {
         Auxliar.EspacoEntreOperacoes(1);
-         Console.WriteLine("Identificar Raça:");
-        if (NomeRaca != null && NomeRaca.RetornarNomeRaca() != "Sem Raça Definida")
+         Console.WriteLine("Identificar Raca:");
+        if (NomeRaca != null && NomeRaca.RetornarNomeRaca() != "Sem Raca Definida")
         {
              NomeRaca.RetornarNomeRacaUtilizador()   ;
             
         }
         else
         {
-           Console.WriteLine("Sem Raça Atribuda") ;
+           Console.WriteLine("Sem Raca Atribuda") ;
         }
        
     }

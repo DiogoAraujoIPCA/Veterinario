@@ -6,24 +6,30 @@ public partial class Consulta{
 
 
 
-    public void  CriarCondicaoMedica(){
+    public bool  CriarCondicaoMedica(){
         Auxliar.EspacoEntreOperacoes(1);
         Auxliar.IdentificacaoOperacao("Criar Nova COndição Medica");
+
         Console.WriteLine("Insira o  Nome Comum :");
         string Nome_Comum=   Console.ReadLine();
         Console.WriteLine("Insira o  Nome especifico:");
         string Nome_Especifico= Console.ReadLine();
-         AdicionarCondicaoMedica (Nome_Comum+"_"+Nome_Especifico);
+        
+        bool resultado= AdicionarCondicaoMedica (Nome_Comum+"_"+Nome_Especifico);
+        return resultado;
     }
-   public void AdicionarCondicaoMedica(string NovaCondiçãoMedica){
+   public bool AdicionarCondicaoMedica(string NovaCondiçãoMedica){
     
     Auxliar.EspacoEntreOperacoes(1);
     Auxliar.IdentificacaoOperacao("Adicionar Nova condição:");
     if (!VerificarExistenciaCondicao(NovaCondiçãoMedica)){
+        
          condicoesMedicasBD.Add(NovaCondiçãoMedica);
           Console.WriteLine("Condição "+NovaCondiçãoMedica+" adicionada");
+          return true;
     }else{
         Console.WriteLine("Condição "+NovaCondiçãoMedica+"já existente");
+          return false;
     }
    
 
@@ -46,6 +52,8 @@ public partial class Consulta{
         return false;
     }
 
+
+    
     
         
    }

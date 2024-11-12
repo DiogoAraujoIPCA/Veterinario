@@ -7,31 +7,35 @@ public partial class Animal{
             Responsavel = _Responsavel;
         }
 
-          public void AtualizaNomeRaca(Raça _Raca)
+          public void AtualizaNomeRaca(Raca _Raca)
         {     
-             Auxliar.IdentificacaoOperacao("Atualizar Nome Raça animal:");
+             Auxliar.IdentificacaoOperacao("Atualizar Nome Raca animal:");
             NomeRaca = _Raca;
         }
 
-        public void AtualizarNumeroChip(int _NumeroChip)
+        public bool AtualizarNumeroChip(int _NumeroChip)
         {
             Auxliar.IdentificacaoOperacao("Atualizar Numero Chip:");
             if( NumeroChip >0 ){
                 NumeroChip=_NumeroChip;
+                return true;
             }
             else{
                 Console.WriteLine("Não foi possivel atualizar nuemro do chip.");
+                return false;
             }
            
         }
-        public void AtualizarNomeAnimal(string _NomeAnimal){
+        public bool AtualizarNomeAnimal(string _NomeAnimal){
 
             Auxliar.IdentificacaoOperacao("Atualizar Nome Animal:");
             if(Validacoes.VerificarCampo(NomeAnimal)){
                 NomeAnimal=_NomeAnimal;
+                return true;
             }
             else{
                 Console.WriteLine("Não foi possivel atualizar nome do animal.");
+                return false;
             }
         }
         

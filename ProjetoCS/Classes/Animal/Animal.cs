@@ -8,7 +8,7 @@ public  partial class Animal
 
     public string NomeAnimal;
 
-    private Raça NomeRaca;
+    private Raca NomeRaca;
 
     private Pessoa Responsavel;
 
@@ -19,7 +19,7 @@ public  partial class Animal
 
 
     #region  Construtor
-     public Animal(int _NumeroChip, string _Nome, Raça _NomeRaca = null, Pessoa _Responsavel = null)
+     public Animal(int _NumeroChip, string _Nome, Raca _NomeRaca = null, Pessoa _Responsavel = null)
     {
         NumeroChip = _NumeroChip;
         NomeAnimal = _Nome;
