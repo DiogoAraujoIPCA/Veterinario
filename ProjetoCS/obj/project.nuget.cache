@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t5LSjASJDZs=",
+  "dgSpecHash": "V5UG2FiLrxA=",
   "success": true,
-  "projectFilePath": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj",
+  "projectFilePath": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diogo araujo\\.nuget\\packages\\xunit\\2.9.2\\xunit.2.9.2.nupkg.sha512",
     "C:\\Users\\diogo araujo\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",

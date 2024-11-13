@@ -10,10 +10,10 @@ Animal Teste = new Animal(1111111,"Arroz",raca,null);
 Animal Teste1 = new Animal(1111112,"Jordan",null,null);
 
 Teste.RetornarTodasInformações();   
-Auxliar.EspacoEntreOperacoes(1);
+
 
 Teste1.RetornarTodasInformações();
-Auxliar.EspacoEntreOperacoes(1);
+
 
 #endregion
 
@@ -62,7 +62,7 @@ Veterinario1.RetornarTodosDados(false);
 
 #endregion
 
-#region 7)Durante a consulta podem ser detetadas diversas condições medicas , cada uma delas deve ser identificada por um nome comum e nome especifico .Não podem existir condições medicas iguais
+#region 7)Durante a consulta podem ser detetadas diversas condições medicas, cada uma delas deve ser identificada por um nome comum e nome especifico .Não podem existir condições medicas iguais
 
 Consulta Consulta1= new Consulta("Teste",Convert.ToDateTime("23/12/2024"),Convert.ToDateTime("23/12/2024"),João,Teste3,Veterinario1);
 Consulta Consulta2= new Consulta("Teste1",Convert.ToDateTime("23/12/2024"),Convert.ToDateTime("23/12/2024"),João,Teste3,Veterinario1);
@@ -77,7 +77,9 @@ Diagnostico Diagnostico2 =new Diagnostico("BBBB","CCCC");
 Consulta1.AdicionarDiagnostico(Diagnostico1,raca);
 Consulta1.AdicionarDiagnostico(Diagnostico2,raca);
 
-Consulta1.RetornarTodasInformacoesConsultaUtilizador();
+//Consulta1.AdicionarDiagnostico(Diagnostico1,raca); ->Para testar condições iguais
+
+//Consulta1.RetornarTodasInformacoesConsultaUtilizador();
 
 
 
@@ -93,7 +95,7 @@ consulta1.ListarTodasCondicoesMedica();*/
 
 #region 8)Devem ser armazenadas as condições medicas mais comuns de cada Raca
 
-raca.ListarCondicoesComuns();
+//raca.ListarCondicoesComuns();
 
 #endregion
 

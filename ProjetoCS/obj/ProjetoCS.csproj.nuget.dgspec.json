@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj": {}
+    "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj": {}
   },
   "projects": {
-    "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj": {
+    "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj",
+        "projectUniqueName": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj",
         "projectName": "ProjetoCS",
-        "projectPath": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj",
+        "projectPath": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj",
         "packagesPath": "C:\\Users\\diogo araujo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\obj\\",
+        "outputPath": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5UbJuEqtGaI=",
+  "dgSpecHash": "xe2HwIldRos=",
   "success": true,
-  "projectFilePath": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\Testes\\Testes.csproj",
+  "projectFilePath": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\Testes\\Testes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diogo araujo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\diogo araujo\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

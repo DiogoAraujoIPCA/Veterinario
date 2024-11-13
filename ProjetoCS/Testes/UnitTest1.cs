@@ -16,7 +16,8 @@ public class UnitTest1
     }
 
     [Fact]
-    [Trait("Categoria", "Erro")]
+
+
     public void TelemovelOrganizacao()
     {
         Organizacao org1 = new Organizacao("Arroz", "dadsadas", "", 9122121);
@@ -24,7 +25,9 @@ public class UnitTest1
         Assert.Equal(true, Validacoes.VerificarNumeroTelemovel(9122121));
     }
 
-    [Fact]
+ 
+
+        [Fact]
     public void ErroTelemovelOrganizacao()
     {
         Organizacao org1 = new Organizacao("Arroz", "dadsadas", "", 9122121);
@@ -43,6 +46,5 @@ public class UnitTest1
     {
         Assert.Equal(false, Validacoes.VerificarCampo(""));
     }
-
     
 }

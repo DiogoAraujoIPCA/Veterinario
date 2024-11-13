@@ -33,23 +33,26 @@ public partial class Consulta{
      
     
      public void RetornarTodasInformacoesConsultaUtilizador(){
-        Auxliar.EspacoEntreOperacoes(1);
-      Auxliar.IdentificacaoOperacao("Todas Informações Consulta");
+
+
+       
+        Auxliar.IdentificacaoOperacao("Todas Informações Consulta");
+         Auxliar.EspacoEntreOperacoes(2);
         RetornarDescriacaoUtilizador();
         RetornarDataInicialUtilizador();
         RetornarDataFinalUtilizador();
         RetornarPessoaResponsavelUtilizador();
         RetornarAnimalUtilizador();
         RetornarVeterinarioUtilizador();
-       
         retornarCondiçoesanimalconsulta();
+         Auxliar.EspacoEntreOperacoes(2);
     }
 
     public void retornarCondiçoesanimalconsulta(){
-        Auxliar.EspacoEntreOperacoes(1);
+        Auxliar.EspacoEntreOperacoes(2);
 
       Console.WriteLine("Lista condições ");
-      Auxliar.EspacoEntreOperacoes(1);
+      Auxliar.EspacoEntreOperacoes(2);
       foreach (Diagnostico Di in ListaCondicoes){
        Di.RetornarNomeDiagnosticoUtilizador();
       }

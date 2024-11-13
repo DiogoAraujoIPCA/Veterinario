@@ -979,11 +979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\Testes\\Testes.csproj",
+      "projectUniqueName": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\Testes\\Testes.csproj",
       "projectName": "Testes",
-      "projectPath": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\Testes\\Testes.csproj",
+      "projectPath": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\Testes\\Testes.csproj",
       "packagesPath": "C:\\Users\\diogo araujo\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\Testes\\obj\\",
+      "outputPath": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\Testes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1005,8 +1005,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj": {
-              "projectPath": "c:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj"
+            "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj": {
+              "projectPath": "C:\\Users\\diogo araujo\\Desktop\\Repos\\Linguagens-Progama-o\\ProjetoCS\\ProjetoCS.csproj"
             }
           }
         }

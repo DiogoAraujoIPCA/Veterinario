@@ -18,8 +18,10 @@ public partial class Veterinario
         {
             Auxliar.IdentificacaoOperacao("Informações Veterinario");
         }
-
-        Console.Write("ID Veterinario:" + ID_Veterinario + "");
+         Auxliar.EspacoEntreOperacoes(2);
+        Auxliar.IdentificacaoOperacao("Dados Veterinario:");
+        Auxliar.EspacoEntreOperacoes(2);
+        Console.Write("ID Veterinario:\n" + ID_Veterinario + "");
         _Pessoa.RetornarTodasInformacoes(false);
     }
 }

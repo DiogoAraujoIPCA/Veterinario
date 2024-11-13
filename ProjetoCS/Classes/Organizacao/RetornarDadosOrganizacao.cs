@@ -26,9 +26,9 @@ public void RetornarEmailUtilizador(){
 
 public void RetornarListaConsultas(){
 
-    Auxliar.EspacoEntreOperacoes(1);
+    Auxliar.EspacoEntreOperacoes(2);
     Auxliar.IdentificacaoOperacao("Lista de Consultas");
-
+        Auxliar.EspacoEntreOperacoes(1);
         int  i= 0;
         foreach (Consulta var in ListaConsultas)
         {
